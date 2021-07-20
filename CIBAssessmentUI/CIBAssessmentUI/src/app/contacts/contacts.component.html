@@ -1,0 +1,13 @@
+<div class="center-flex">
+    <h3 class="text-center"><button (click)="navigateBack()"><span><i class="fa fa-home"></i></span></button> Phonebook  <button><span><i class="fa fa-user-plus"></i></span></button></h3>
+    <p class="sub"><i class="fa fa-user"></i>Contacts</p>
+
+    <div class="col-md-2" *ngFor="let contact of contacts">
+        <div class="panel panel-default">
+            <div class="panel-body center">
+              <p>{{contact.name}}</p>
+            </div>
+          </div>
+    </div>
+
+  </div>

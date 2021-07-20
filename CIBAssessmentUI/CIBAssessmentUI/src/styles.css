@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+.center-flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height:100vh;
+    background: #19b5fe;
+}
+
+.sub {
+    font-size: 13px;
+    text-align: left;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    line-height: inherit;
+}
+
+.panel, .btn, button {
+    border-radius: 0px;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+button {
+    background: rgba(255,255,255,0.7);
+}

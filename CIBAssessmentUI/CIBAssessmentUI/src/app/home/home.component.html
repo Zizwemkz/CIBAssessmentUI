@@ -1,0 +1,11 @@
+<div class="center-flex">
+  <h3 class="text-center">Phonebook  <button (click)="createPhonebook()"><span><i class="fa fa-plus-circle"></i></span></button></h3>
+  <div class="col-md-2" *ngFor="let phonebook of phonebooklist">
+    <div class="panel panel-info">
+      <div class="panel panel-heading">
+        <h4><i class="fa fa-book"></i> {{phonebook.name}}</h4>
+      </div>
+      <p><Button (click)="viewBook(phonebook.phonebookId)" class="btn btn default">View <i class="fa fa-eye"></i></Button></p>
+    </div>
+  </div>
+</div>
